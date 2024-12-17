@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Gaussian Splat Gallery</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .tile {
+            background-color: #f0f0f0;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s;
+        }
+
+        .tile:hover {
+            transform: scale(1.05);
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <a href="biker/index.html" class="tile">
+            <h2>Biker</h2>
+        </a>
+        <a href="drone/index.html" class="tile">
+            <h2>Drone</h2>
+        </a>
+        <a href="gallery/index.html" class="tile">
+            <h2>Gallery</h2>
+        </a>
+        <a href="toy-cat/index.html" class="tile">
+            <h2>Toy Cat</h2>
+        </a>
+    </div>
+</body>
+</html>
