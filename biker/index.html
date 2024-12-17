@@ -94,7 +94,7 @@
                 <!-- Camera (with XR support) -->
                 <pc-entity name="camera root">
                     <pc-entity name="camera">
-                        <pc-camera clear-color="0.4 0.4 0.4" fov="50"></pc-camera>
+                        <pc-camera clear-color="0.4 0.4 0.4" fov="50.00"></pc-camera>
                         <pc-scripts>
                             <pc-script name="cameraControls"></pc-script>
                         </pc-scripts>
@@ -171,8 +171,8 @@
                 const entityElement = await document.querySelector('pc-entity[name="camera"]').ready();
                 const entity = entityElement.entity;
 
-                const resetPosition = new Vec3(2.346886396408081, 1.5489193201065063, 1.0731104612350464);
-                const resetTarget = new Vec3(0.29348616450289033, 1.3361166833718363, 0.15027940654776073);
+                const resetPosition = new Vec3(2.1785085201263428, 1.4240144491195679, 1.0174793004989624);
+                const resetTarget = new Vec3(-0.2184883792247332, 1.1736000750127755, -0.11046267839056201);
 
                 class FrameScene extends Script {
                     frameScene(bbox) {
